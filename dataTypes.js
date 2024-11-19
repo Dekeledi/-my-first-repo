@@ -18,8 +18,6 @@ console.log("age");
 const email = "dekeledi@gmail.com";
 console.log(email);
 
-
-
 // datatypes
 // premitive datatype
 // non-premitive datatype
@@ -78,3 +76,13 @@ const user2 = {
 };
 
 console.log(user2)
+
+
+let age = 25;
+if(age > 18){
+    console.log("you are an adult")
+} else if(age < 18){
+    console.log("you are a minor")
+} else{
+    console.log("you are a teenager")
+}
